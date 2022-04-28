@@ -4,6 +4,7 @@ import org.junit.jupiter.api.*;
 
 public class AscendingSequanceTest {
     //  AscendingSequance as;
+
     //  @BeforeEach  //используем чтобы вынести повторяющуюся часть одинаково используемую перед каждым тестом
     //  void setUp() {
     //     as = new AscendingSequance();
