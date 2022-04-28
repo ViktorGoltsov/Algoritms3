@@ -5,7 +5,7 @@ public class AscendingSequance {
         if (step > 0 && start < end) {
             int[] result = new int[(end - start + 1)/step];
 
- //           int j = 0;  //comment in commit
+ //           int j = 0;  //comment in commit //another commit from big
 
 //            for (int i = start; i<= end;i  +=  step) {
 //                if (j < result.length) {
