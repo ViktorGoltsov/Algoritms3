@@ -1,5 +1,5 @@
 import static Utils.Utils.*;
-
+//2
 public class OddIndices {
   // Написать алгоритм OddIndices, который принимает массив чисел,  и возвращает массив значений нечетных индексов
 //Test Data:
