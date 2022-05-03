@@ -49,7 +49,7 @@ public class OddEvenTest {
     public void testOddEvenMaxIntPlus1 () {
 
 
-        int number = 2147483647 + 11; // целочисленный охват //https://javascopes.com/java-overflow-underflow-6e10f90e/
+        long number = 2147483647 + 1; // целочисленный охват //https://javascopes.com/java-overflow-underflow-6e10f90e/
 
         String expectedResult = "Undefined";
 
@@ -75,7 +75,20 @@ public class OddEvenTest {
     public void testOddEvenCharNum () {
 
 
-        int number = '7';
+        int number = 2147483647 + 1;
+
+        String expectedResult = "Undefined";
+
+        OddEven oe = new OddEven();
+        String actualResult = oe.oddEvenAlgotithm(number);
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void testOddEvenMoretoLong  () {
+
+
+        long number = -21474836471L;
 
         String expectedResult = "Undefined";
 

@@ -3,6 +3,7 @@ public class SumArray {
     //3
     public int sumOfNumberInArrAlgorithm (int[] arr) {
          checkzero(arr);
+
          int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];

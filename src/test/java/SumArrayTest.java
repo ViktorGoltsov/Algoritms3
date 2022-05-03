@@ -23,18 +23,19 @@ public class SumArrayTest {
 
         int actualResult = obj.sumOfNumberInArrAlgorithm(arr);
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
+
     @Test
-    public void testsumOfNumberInArrChar() {
-        int []arr = new int [] {'g', '3'};
-        int expectedResult = 154;
+    public void testsumOfNumberInArrHP3WithDouble () {
+        double []arr = new double [] {-7.2, -3.5};
+        double expectedResult = -10.7;
 
         SumArray obj = new SumArray();
 
-        int actualResult = obj.sumOfNumberInArrAlgorithm(arr);
+        double actualResult = obj.sumOfNumberInArrAlgorithm(arr);
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
+
+
 
 }
