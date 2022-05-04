@@ -8,6 +8,7 @@ public class MinMaxAve {
 
             return new double[]{};
         } else {
+
             double min = Integer.MAX_VALUE;
             double max = Integer.MIN_VALUE;
             double avg = 0;
