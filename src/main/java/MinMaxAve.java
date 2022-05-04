@@ -11,12 +11,13 @@ public class MinMaxAve {
             } if (arr[i] > max) {
                 max = arr[i];
             }
-            avg += arr[i]/(Math.abs(ind2 - ind1) + 1);
+            avg = avg + arr[i];
         }
+        avg = avg / (ind2 -ind1 +1);
         double [] arrMminMaxAve = new double[3];
         arrMminMaxAve[0] = min;
         arrMminMaxAve[1] = max;
-        arrMminMaxAve[2] = max;
+        arrMminMaxAve[2] = avg;
         return arrMminMaxAve;
     }
 }
