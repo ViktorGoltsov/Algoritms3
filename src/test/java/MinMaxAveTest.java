@@ -42,7 +42,7 @@ public class MinMaxAveTest {
     }
 
     @Test
-    public void testMinMaxAveIndexesOutOfArr () {
+    public void testMinMaxAveNegIndexesOutOfArr () {
         int[] arr = {2, 3, 4};
         int ind1 = 0;
         int ind2 = 3;
@@ -55,7 +55,7 @@ public class MinMaxAveTest {
     }
 
     @Test
-    public void testMinMaxAveIndexesOutOfArr2 () {
+    public void testMinMaxAveNegIndexesOutOfArr2 () {
         int[] arr = {2, 3, 4};
         int ind1 = -1;
         int ind2 = 2;
@@ -68,7 +68,7 @@ public class MinMaxAveTest {
     }
 
     @Test
-    public void testMinMaxAveIndexesOutOfArr5 () {
+    public void testMinMaxAveNegIndexesOutOfArr5 () {
         int[] arr = {2, 3, 4, 5};
         int ind1 = 0;
         int ind2 = 4;
