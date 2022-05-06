@@ -50,6 +50,18 @@ public class NumberOccurrencesTest {
     }
 
     @Test
+    public void testNumberOccurrencesAllTheSame () {
+        int [] arr = {2, 2, 2};
+        int [][] expectedResult = {{2, 3}};
+
+        NumberOccurrences obj = new NumberOccurrences();
+        int [][] actualResult = obj.NumberOccurrencesAlgorithm(arr);
+
+        Assertions.assertEquals(Arrays.deepToString(expectedResult), Arrays.deepToString(actualResult));
+    }
+
+
+    @Test
     public void testNumberOccurrencesZero () {
         int [] arr = {};
         int [][] expectedResult = new int [][]{};
