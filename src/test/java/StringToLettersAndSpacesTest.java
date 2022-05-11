@@ -34,4 +34,5 @@ public class StringToLettersAndSpacesTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
+
 }
