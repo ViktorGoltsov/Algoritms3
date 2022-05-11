@@ -152,6 +152,22 @@ public class Utils {
         }
     }
 
+    public static boolean checkIfCharIsLetter (char character) {
+        if (character >= 97 && character <= 122 || character >= 65 && character <= 90) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean checkIfCharIsNumber (char character) {
+        if (character >= 48 && character <= 57) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 
 
 }
