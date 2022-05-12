@@ -24,6 +24,7 @@ public class StartsWithLetter {
         if (!strResult.equalsIgnoreCase("") && strResult.substring(strResult.length() - 2).equalsIgnoreCase(", ")) {
             strResult = strResult.substring(0, strResult.length() - 2);
         }
+
         return strResult;
     }
 }
